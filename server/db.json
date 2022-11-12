@@ -1,0 +1,175 @@
+{
+    "categoria 1": [
+        {
+            "id": "1",
+            "article": "zapatillas lacoste",
+            "price": 100,
+            "size": 40,
+            "ofert": true
+        },
+        {
+            "id": "2",
+            "article": "jean levis",
+            "price": 80,
+            "size": 40,
+            "ofert": false
+        },
+        {
+            "id": "3",
+            "article": " remera tommy hifiger",
+            "price": 30,
+            "size": 30,
+            "ofert": true
+        },
+        {
+            "id": "4",
+            "article": "boxer quiksilver",
+            "price": 15,
+            "size": 40,
+            "ofert": true
+        },
+        {
+            "id": "5",
+            "article": "pantalos adidas",
+            "price": 90,
+            "size": 40,
+            "ofert": false
+        },
+        {
+            "id": "6",
+            "article": "campera lacoste",
+            "price": 150,
+            "size": 40,
+            "ofert": false
+        },
+        {
+            "id": "7",
+            "article": "buso nike",
+            "price": 75,
+            "size": 40,
+            "ofert": false
+        },
+        {
+            "id": "8",
+            "article": " short nike",
+            "price": 50,
+            "size": 40,
+            "ofert": true
+        },
+        {
+            "id": "9",
+            "article": "camisa levis",
+            "price": 90,
+            "size": 40,
+            "ofert": true
+        },
+        {
+            "id": "10",
+            "article": "short de  baño",
+            "price": 60,
+            "size": 40,
+            "ofert": false
+        },
+        {
+            "id": "11",
+            "article": " campera calbhert",
+            "price": 180,
+            "size": 55,
+            "ofert": true
+        },
+        {
+            "id": "12",
+            "article": "remera calvin claint",
+            "price": 30,
+            "size": 40,
+            "ofert": false
+        }
+    ],
+
+    "categoria 2": [
+        {
+            "id": "13",
+            "article": "zapatillas lacoste",
+            "price": 100,
+            "size": 40,
+            "ofert": true
+        },
+        {
+            "id": "14",
+            "article": "jean levis",
+            "price": 80,
+            "size": 40,
+            "ofert": false
+        },
+        {
+            "id": "15",
+            "article": " remera tommy hifiger",
+            "price": 30,
+            "size": 30,
+            "ofert": true
+        },
+        {
+            "id": "16",
+            "article": "boxer quiksilver",
+            "price": 15,
+            "size": 40,
+            "ofert": true
+        },
+        {
+            "id": "17",
+            "article": "pantalos adidas",
+            "price": 90,
+            "size": 40,
+            "ofert": false
+        },
+        {
+            "id": "18",
+            "article": "campera lacoste",
+            "price": 150,
+            "size": 40,
+            "ofert": false
+        },
+        {
+            "id": "19",
+            "article": "buso nike",
+            "price": 75,
+            "size": 40,
+            "ofert": false
+        },
+        {
+            "id": "20",
+            "article": " short nike",
+            "price": 50,
+            "size": 40,
+            "ofert": true
+        },
+        {
+            "id": "21",
+            "article": "camisa levis",
+            "price": 90,
+            "size": 40,
+            "ofert": true
+        },
+        {
+            "id": "22",
+            "article": "short de  baño",
+            "price": 60,
+            "size": 40,
+            "ofert": false
+        },
+        {
+            "id": "23",
+            "article": " campera calbhert",
+            "price": 180,
+            "size": 55,
+            "ofert": true
+        },
+        {
+            "id": "24",
+            "article": "remera calvin claint",
+            "price": 30,
+            "size": 40,
+            "ofert": false
+        }
+    ]
+}
