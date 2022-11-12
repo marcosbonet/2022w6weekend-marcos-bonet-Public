@@ -1,7 +1,7 @@
 import { ClothesType } from '../types/types';
 import { Repository } from './repository';
 
-export class ClothesRepositoy implements Repository<ClothesType> {
+export class ClothesRepository implements Repository<ClothesType> {
     url: string;
     constructor(url = '') {
         this.url = url ? url : (process.env.REACT_APP_URL_CLOTHES as string);

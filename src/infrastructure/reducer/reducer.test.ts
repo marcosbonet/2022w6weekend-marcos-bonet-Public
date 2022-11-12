@@ -8,7 +8,7 @@ describe('Given the function clothesReducer', () => {
         article: '',
         price: 0,
         size: 0,
-        ofert: true,
+        offers: true,
     };
 
     let action: { type: string; payload: unknown };

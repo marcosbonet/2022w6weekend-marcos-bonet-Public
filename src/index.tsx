@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 import reportWebVitals from './reportWebVitals';
-import { App } from './infrastructure/componentes/app/app';
+import { App } from './infrastructure/components/app/app';
 import './index.css';
 import { Provider } from 'react-redux';
-import { appStorel } from './infrastructure/Store/store';
+import { appStore } from './infrastructure/Store/store';
 
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
@@ -14,7 +14,7 @@ const root = ReactDOM.createRoot(
 
 root.render(
     <React.StrictMode>
-        <Provider store={appStorel}>
+        <Provider store={appStore}>
             <Router>
                 <App />
             </Router>
