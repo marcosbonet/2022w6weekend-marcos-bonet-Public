@@ -8,11 +8,10 @@ import { Sales } from '../../../features/sales/sales';
 export function AppRoutes() {
     return (
         <Routes>
-            <div>Clothes</div>
-            <Route
-                path="CategoryOne"
-                element={<CategoryOne></CategoryOne>}
-            ></Route>
+            <Route path="CategoryOne" element={<CategoryOne></CategoryOne>}>
+                {' '}
+                <div>Clothes</div>
+            </Route>
 
             <Route
                 path="CategoryTwo"

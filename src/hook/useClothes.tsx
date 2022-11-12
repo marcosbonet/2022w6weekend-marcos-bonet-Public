@@ -1,4 +1,4 @@
-import { ClothesRepositoy } from '../services/clothes.repository';
+import { ClothesRepository } from '../services/clothes.repository';
 import { useSelector, useDispatch } from 'react-redux';
 import { useEffect, useMemo } from 'react';
 import { rootState } from '../infrastructure/Store/store';
@@ -8,7 +8,7 @@ import { ClothesType, ProtoClothes } from '../types/types';
 export const useClothes = () => {
     const clothes = useSelector((state: rootState) => state.clothes);
     const dispatcher = useDispatch();
-    const apiClothes = useMemo(() => new ClothesRepositoy(), []);
+    const apiClothes = useMemo(() => new ClothesRepository(), []);
 
     useEffect(() => {
         apiClothes

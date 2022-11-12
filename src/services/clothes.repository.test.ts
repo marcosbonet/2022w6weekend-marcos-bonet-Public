@@ -1,11 +1,11 @@
-import { ClothesRepositoy } from './clothes.repository';
+import { ClothesRepository } from './clothes.repository';
 import { mockClothes } from './mockClothes';
 
 describe('Given ClothesApi Service', () => {
     describe('When we instantiate it', () => {
-        let service: ClothesRepositoy;
+        let service: ClothesRepository;
         beforeEach(() => {
-            service = new ClothesRepositoy('prueba');
+            service = new ClothesRepository('prueba');
         });
         test('the url should be env.', () => {
             const result = service.url;
@@ -106,9 +106,9 @@ describe('Given ClothesApi Service', () => {
 
 describe('Given Clothes Api Service', () => {
     describe('When we instantiate it', () => {
-        let service: ClothesRepositoy;
+        let service: ClothesRepository;
         beforeEach(() => {
-            service = new ClothesRepositoy();
+            service = new ClothesRepository();
             global.fetch = jest.fn().mockResolvedValue({
                 ok: true,
                 status: '400',
