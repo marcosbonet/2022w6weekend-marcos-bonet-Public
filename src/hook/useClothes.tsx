@@ -9,12 +9,14 @@ export const useClothes = () => {
     const clothes = useSelector((state: rootState) => state.clothes);
     const dispatcher = useDispatch();
     const apiClothes = useMemo(() => new ClothesRepositoy(), []);
+
     useEffect(() => {
         apiClothes
             .getAll()
             .then((clothes) => dispatcher(ac.loadActionCreator(clothes)))
             .catch((error: Error) => console.log(error.name, error.message));
     }, [apiClothes, dispatcher]);
+
     const handleAdd = (newTask: ProtoClothes) => {
         apiClothes
             .create(newTask)
