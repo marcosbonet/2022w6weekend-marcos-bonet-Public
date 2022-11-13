@@ -10,7 +10,6 @@ export function AppRoutes() {
         <Routes>
             <Route path="CategoryOne" element={<CategoryOne></CategoryOne>}>
                 {' '}
-                <div>Clothes</div>
             </Route>
 
             <Route

@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 import { MemoryRouter as Router } from 'react-router-dom';
 import { App } from './app';
 import { Provider } from 'react-redux';
-import { appStorel } from '../../Store/store';
+import { appStore } from '../../../redux/Store/store';
 
 interface CryptoPlus extends Crypto {
     randomBytes: (arr: number) => void;
@@ -22,7 +22,7 @@ describe('Given App component', () => {
         beforeEach(() => {
             render(
                 <Router>
-                    <Provider store={appStorel}>
+                    <Provider store={appStore}>
                         <App />
                     </Provider>
                 </Router>

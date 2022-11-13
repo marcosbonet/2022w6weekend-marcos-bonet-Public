@@ -3,7 +3,7 @@
 E-Commerce
 Productos en 2 categorías.
 
-Pagina Ofertas
+Pagina offersas
 
 Página categoría 1
 

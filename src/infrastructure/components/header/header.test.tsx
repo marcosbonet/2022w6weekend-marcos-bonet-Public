@@ -11,7 +11,7 @@ describe('Given Header component', () => {
                     <Header />
                 </Router>
             );
-            const element = screen.getByText(/Learning React/i);
+            const element = screen.getByText(/iCommers/i);
             expect(element).toBeInTheDocument();
         });
     });

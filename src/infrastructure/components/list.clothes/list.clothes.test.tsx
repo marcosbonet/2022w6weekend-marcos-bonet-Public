@@ -1,13 +1,18 @@
 import { render, screen } from '@testing-library/react';
-import { ClothesList } from './components';
+import { ClothesList } from './list.clothes';
 import { MemoryRouter as Router } from 'react-router-dom';
+
+import { Provider } from 'react-redux';
+import { appStore } from '../../../redux/Store/store';
 
 describe('Given the Clothes list component', () => {
     describe('when we render the component', () => {
         beforeEach(() => {
             render(
                 <Router>
-                    <ClothesList></ClothesList>
+                    <Provider store={appStore}>
+                        <ClothesList clothes={[]} />
+                    </Provider>
                 </Router>
             );
         });

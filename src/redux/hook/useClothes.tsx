@@ -1,11 +1,9 @@
+import { ClothesRepository } from '../services/clothes.repository';
 import { useSelector, useDispatch } from 'react-redux';
 import { useEffect, useMemo } from 'react';
-
-import * as ac from '../../../2022w6weekend-marcos-bonet-Public/src/redux/reducer/action.creators';
-
-import { ClothesRepository } from '../redux/services/clothes.repository';
-import { rootState } from '../redux/Store/store';
-import { ClothesType, ProtoClothes } from '../types/types';
+import { rootState } from '../Store/store';
+import * as ac from '../../redux/reducer/action.creators';
+import { ClothesType, ProtoClothes } from '../../types/types';
 
 export const useClothes = () => {
     const clothes = useSelector((state: rootState) => state.clothes);
