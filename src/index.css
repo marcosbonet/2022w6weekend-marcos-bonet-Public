@@ -12,3 +12,24 @@ main {
     min-height: 70vh;
     padding: 1rem;
 }
+.beer__item {
+    list-style: none;
+}
+.beer__img {
+    width: 250px;
+}
+.beer__info {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    font-size: 1.2rem;
+}
+.beer__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.beer__add {
+    padding: 5px;
+    cursor: pointer;
+}

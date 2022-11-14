@@ -3,18 +3,18 @@ export type ClothesType = {
     article: string;
     price: number;
     size: number;
-    ofert: boolean;
+    offers: boolean;
 };
 
 export type ProtoClothes = {
     article: string;
     price: number;
     size: number;
-    ofert: boolean;
+    offers: boolean;
 };
 export class ClothesModel {
-    ofert: boolean;
+    offers: boolean;
     constructor(article: string, price: number, size: number) {
-        this.ofert = false;
+        this.offers = false;
     }
 }
