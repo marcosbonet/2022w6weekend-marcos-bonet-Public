@@ -4,8 +4,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: bisque;
-    background-color: brown;
+    color: rgb(186, 239, 224);
+    background-color: rgb(10, 161, 73);
 }
 
 .header h1 {

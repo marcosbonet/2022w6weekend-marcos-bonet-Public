@@ -6,7 +6,6 @@ export function Layout({ children }: { children: JSX.Element }) {
         <>
             <Header></Header>
             {children}
-            <div>Clothes</div>
             <Footer></Footer>
         </>
     );

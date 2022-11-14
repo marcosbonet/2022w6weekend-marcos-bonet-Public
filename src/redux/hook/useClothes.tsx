@@ -17,16 +17,16 @@ export const useClothes = () => {
             .catch((error: Error) => console.log(error.name, error.message));
     }, [apiClothes, dispatcher]);
 
-    const handleAdd = (newTask: ProtoClothes) => {
+    const handleAdd = (newClothes: ProtoClothes) => {
         apiClothes
-            .create(newTask)
+            .create(newClothes)
             .then((Clothes: ClothesType) =>
                 dispatcher(ac.addActionCreator(Clothes))
             )
             .catch((error: Error) => console.log(error.name, error.message));
     };
 
-    const handleUpdate = (updateClothes: Partial<ClothesType>) => {
+    const handleUpdate = (updateClothes: ClothesType) => {
         apiClothes
             .update(updateClothes)
             .then((Clothes: ClothesType) =>
